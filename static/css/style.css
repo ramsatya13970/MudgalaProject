@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Page Headers */
 .page-header {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x400/?school,education');
+    /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x400/?school,education'); */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('aboutUsBanner.png');
     background-size: cover;
     background-position: center;
     height: 300px;
