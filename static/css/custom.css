@@ -1,0 +1,220 @@
+/* Custom styles to enhance the existing theme */
+
+/* Navbar Styles */
+#mainNav {
+    background-color: #333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 15px 0;
+}
+
+#mainNav .navbar-brand img {
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+#mainNav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+}
+
+#mainNav .nav-link:hover,
+#mainNav .nav-link.active {
+    color: #51A66F !important;
+}
+
+#mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333;
+}
+
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 40px;
+}
+
+/* Hero Carousel */
+#heroCarousel {
+    margin-top: 76px;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 30%;
+    z-index: 10;
+    padding: 0 50px;
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* SAGE Model Section */
+.sage-circles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.sage-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.sage-circle:hover {
+    transform: scale(1.1);
+}
+
+.sage-circle span {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.sage-circle h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.orange { background-color: #FF6B6B; }
+.green { background-color: #4ECDC4; }
+.blue { background-color: #45B7D1; }
+.yellow { background-color: #FFE66D; }
+
+.sage-description {
+    padding: 2rem;
+}
+
+.sage-point {
+    margin-bottom: 2rem;
+}
+
+.sage-point h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Feature Boxes */
+.feature-box {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.feature-box i {
+    color: #51A66F;
+}
+
+/* News & Events */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #51A66F;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background-color: #428c5c;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    
+    .sage-circles {
+        margin-bottom: 2rem;
+    }
+}
