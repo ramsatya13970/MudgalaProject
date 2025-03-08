@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Site Metas -->
+<title>MUDGALA RISHIKULAM</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<!--ionicons -->
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+            <div id="loader"></div>
+        </div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <!-- <img class="img-fluid" src="images/logo.png" alt="" /> -->
+                <img class="img-fluid" src="images/logo.jpg" alt="" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+                    </li>
+                    <!-- <li class="nav-item"> -->
+                        <!-- <a class="nav-link js-scroll-trigger" href="#alumni">Alumni</a> -->
+                        <!-- <!-- <a class="nav-link js-scroll-trigger" >Alumni</a> --> 
+                    <!-- </li> -->
+                    <!--<li class="nav-item">-->
+                        <!-- <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>   -->
+                        <!--<a class="nav-link js-scroll-trigger">Blog</a>-->
+                    <!--</li>-->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#concept">Concept</a>
+                        <!-- <a class="nav-link js-scroll-trigger">Curriculum</a>  -->
+                    </li>
+                    <!--<li class="nav-item">-->
+                        <!-- <a class="nav-link js-scroll-trigger" href="#products">Gallery</a> -->
+                        <!--<a class="nav-link js-scroll-trigger">Enroll</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#faqs">FAQs</a>-->
+                        <!-- <a class="nav-link js-scroll-trigger">Gallery</a> -->
+                    <!--</li>
+                    <li class="nav-item">-->
+                        <!-- <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a> -->
+                        <!--<a class="nav-link js-scroll-trigger">Gallery</a>
+                    </li>-->
+                    <!-- <li class="nav-item"> -->
+                    <!-- <a class="nav-link js-scroll-trigger" href="#about">Philosophy</a> -->
+                    <!-- <a class="nav-link js-scroll-trigger" href="#philosophy">Philosophy</a> -->
+                    <!-- </li> -->
+                    <!-- <li class="nav-item"> -->
+                    <!-- <!-- <a class="nav-link js-scroll-trigger" href="#team">Contact</a> -->
+                    <!-- <a class="nav-link js-scroll-trigger" >Contact</a> -->
+                    <!-- </li> -->
+
+                    <!--<li class="nav-item">-->
+                        <!-- <a class="nav-link js-scroll-trigger" href="#blog">Daan Utsav</a> -->
+                        <!--<a class="nav-link js-scroll-trigger">Support</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                        <!-- <a class="nav-link js-scroll-trigger">Team</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="section wb">
+
+        <div class="container">
+
+            <!--New code-->
+            <div class="row h-100">
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                <div class="col-lg-8 col-md-8 col-sm-6 ">
+
+                    <div class="imgCetner">	<img src="images/fontMatter.png" class="imgCetner" alt=""></div>
+
+                </div>
+                <!-- <div class="col-lg-6 col-md-6 col-sm-3"> -->
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-6"> -->
+                <!-- <img src="images/Homepage.jpg" class="img-fluid" alt="Image"> -->
+                <!-- </div> -->
+                <div class="col-lg-4 col-md-4 col-sm-6 divShadow">
+                    <!--3 col begin-->
+
+                    <img src="images/Homepage.jpg" alt="">
+                    <!--3 col End-->
+                </div>
+            </div>
+            <!--New code-->
+        </div>
+
+    </section>
+     <section id="concept" class="section wb">
+
+        <div class="container">
+            <div class="row ">
+                <h1 class="h1FontFamily h1Font"><b>We follow SAGE model</b></h1>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 h-100 sageCircles">
+
+                    <div class="row divmargin">
+                        <span class="circle orange">S</span>
+                        <h4 class="alignment">Sastric</h4>
+                    </div>
+                    <div class="row divmargin">
+                        <span class="circle green">A</span>
+                        <h4 class="alignment">Academic</h4>
+                    </div>
+                    <div class="row divmargin">
+                        <span class="circle blue">G</span>
+                        <h4 class="alignment">Governing</h4>
+                    </div>
+                    <div class="row divmargin">
+                        <span class="circle yellow">E</span>
+                        <h4 class="alignment">Experiential</h4>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 h-100">
+                    <div class="row divmargin">
+                        <h4><b><i>SAGE</i></b> stands for Shastric, Academic, governing and Experiential learner.</h4>
+                    </div>
+                    <div class="row divmargin">
+                        <h4><b>Shastric</b> - We teach time tested principles from our Shastras like Vedas, Bhagavad-Gita, Ramayana, Mahabharata, Bhagavatam and other Puranas.</h4>
+
+                    </div>
+                    <div class="row divmargin">
+                        <h4><b>Academic</b> - We teach and create world class environment for academic excellence, we follow CBSE board and derive lots of principles and inquiry-based models from IB (International Baccalaureate) education.</h4>
+
+                    </div>
+                    <div class="row divmargin">
+
+                        <h4><b>Governing</b> - We create tomorrow's leaders who have the power to govern our country or any organization, who have positive influence on the management and the activities of our nation, region or any organization.</h4>
+                    </div>
+                    <div class="row divmargin">
+
+                        <h4><b>Experiential</b> - We engage students in direct experience and focused reflection in order to increase knowledge, develop skills and clarify values.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <h1 class="h1FontFamily h1Font2"><b>Step by Step, We Make Your Child A SAGE</b></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+      FAQ Section - Begin
+    ============================-->
+    <section id="faqs" class="section wb" style="display:none;">
+        <div class="section-header">
+            <h2>FAQs</h2>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="accordions is-first-expanded">
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Why did we name our school as Rishikulam?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>
+                                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
+                                    <br><br>
+                                    Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Why did we name our Rishikulam as Mudgala Rishikulam?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>
+                                    Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
+                                    <br><br>
+                                    Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Frequently Question End ***** -->
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team" class="section wb">
+        <!-- <div class="container"> -->
+        <!--Row1-->
+        <div class="section-header">
+            <h2>Team</h2>
+            <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
+        </div>
+        <div class="row team">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/sudhamagopal.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr.Sudhama Gopal</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">M.Sc Mathematics<br/>MS Comp (Germany)<br/>20 years of International teaching experience</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/madhava.png" alt="alternative">
+                    <div class="testimonial-author">Madhava Sarma</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech (BITS Pilani)<br/>MA(PhD) Sanskrit<br/>25 years of Industry & Teaching experience</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/tulasimtg.png" alt="alternative">
+                    <div class="testimonial-author">Mrs. Tulasi Madhava</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">M.Tech<br/>MA, Mphil Sanskrit<br/>15 years of teaching experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/UjvalaRadhika.PNG" alt="alternative">
+                    <div class="testimonial-author">Mrs. Ujwala Radhe</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">BDS,<br/> MA (Psy)<br/>15 years of teaching experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row2-->
+        <div class="row team">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/vasudevkrsnapr.png" alt="alternative">
+                    <div class="testimonial-author">Mr. Vasudeva Krishna</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Sc, MBA<br />25 years of experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Vishal.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Viwswambara Vishal</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech,<br>M.Tech(IIT Madras)<br/>10 years of Industry experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/anuradhamtg.png" alt="alternative">
+                    <div class="testimonial-author">Mrs. Anuradha</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech,<br/>B.Sc (Psy)<br/>Behavioral Therapist<br/>10 years of International teaching experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Vaidehi.PNG" alt="alternative">
+                    <div class="testimonial-author">Mrs. Vinita Vaidehi</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">MBA<br/>7 years of international teaching experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row3-->
+        <div class="row team">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/nandakumar.PNG" alt="alternative">
+                    <div class="testimonial-author">Nanda Kumar</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech,B.Ed<br />7 years of Experience</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Rakesh.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Rakesh</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech, B.Ed<br />10 years of experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Suneetha.PNG" alt="alternative">
+                    <div class="testimonial-author">Mrs. Suneetha</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">MBA<br />Music Expert<br />10 years of teaching experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/nandkishorimtg.PNG" alt="alternative">
+                    <div class="testimonial-author">Mrs. Nanadakishori</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">BA<br />10 years of teaching experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row 4-->
+        <div class="row team">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/sunderanandpr.png" alt="alternative">
+                    <div class="testimonial-author">Sundarananda Chaturvedi</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">M.A<br />Expert Astrologist<br />15 years of experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Madhupati.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Madhupati</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Sc Mathematics,<br />B.Ed<br />12 years of teaching experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Vrajendra.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Vrajendra</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech (CS),B.Ed<br />15 years of experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/shyamsundarpr.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Shyamsundaranand</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">
+                            B.Tech <br />
+                            10 years of Exp
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!--Row 5-->
+        <div class="row team">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/surenderpr.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Surendar Reddy</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">
+                            M.A. M.Ed, Retd. GHM<br />
+                            40 years of exp
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/srikanthpr.PNG" alt="alternative">
+                    <div class="testimonial-author">Dr. Srikanth Chakrala</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">
+                            MD (Ayurveda) <br />
+                            20 years of exp
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Kranthi.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Kripasindu Srihari</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech, B.Ed<br />12 of Industry Experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-image" src="images/team/Govind.PNG" alt="alternative">
+                    <div class="testimonial-author">Mr. Govind</div>
+                    <div class="card-body">
+                        <div class="testimonial-text">B.Tech<br />YOGA Expert<br />10 years of experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section wb">
+        <div class="container">
+            <div class="section-header">
+                <h2><br />Contact Us</h2>
+                <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
+            </div>
+
+            <div class="row contact-info">
+
+                <div class="col-md-4">
+                    <div class="contact-address  ">
+                        <i class="ion-ios-location-outline  single-we-do-box"></i>
+                        <h3>Address</h3>
+                        <address>Nanda Gokulam Farm Community,<br /> Kummarigudem, Near Masaipet Village,  Yadadri DistrictG, Telangana-508115</address>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-phone">
+                        <i class="ion-ios-telephone-outline  single-we-do-box"></i>
+                        <h3>Phone Number</h3>
+                        <p>Sriman Sudama Gopal<br /><a href="tel:+91-7680070048">+91-7680070048<br /><br /></a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-email  ">
+                        <i class="ion-ios-email-outline single-we-do-box"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@example.com">mudgala.rishikulam@gmail.com<br /><br /><br /></a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container mb-4">
+            <!-- <iframe src="https://goo.gl/maps/3aqYxvMF2qondnZ9A" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen>loading="lazy" referrerpolicy="no-referrer-when-downgrade"</iframe> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15209.370992847766!2d78.984151!3d17.6339184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x389368569478866b!2sNanda%20Gokulam%20Farm%20Community!5e0!3m2!1sen!2sin!4v1662457509163!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+    </section><!-- #contact -->
+    <!-- end section -->
+    <div class="copyrights">
+        <div class="container-fluid">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Philosophy</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Team</a>
+                        <a href="#">Faq</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <p class="footer-company-name">
+                        All Rights Reserved. &copy; 2022 <a href="#">Mudgula Rishikulam</a>
+                        Design By : <a href="https://html.design/">Suresh Babu Vatluri</a>
+                    </p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- Camera Slider -->
+
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="js/parallaxie.js"></script>
+    <script src="js/headline.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="lib/sticky/sticky.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
