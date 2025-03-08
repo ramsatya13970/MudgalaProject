@@ -101,10 +101,21 @@
     font-size: 1.2rem;
 }
 
-.orange { background-color: #FF6B6B; }
-.green { background-color: #4ECDC4; }
-.blue { background-color: #45B7D1; }
-.yellow { background-color: #FFE66D; }
+.orange {
+    background-color: #FF6B6B;
+}
+
+.green {
+    background-color: #4ECDC4;
+}
+
+.blue {
+    background-color: #45B7D1;
+}
+
+.yellow {
+    background-color: #FFE66D;
+}
 
 .sage-description {
     padding: 2rem;
@@ -209,12 +220,270 @@
     .carousel-caption h1 {
         font-size: 2rem;
     }
-    
+
     .carousel-caption p {
         font-size: 1rem;
     }
-    
+
     .sage-circles {
         margin-bottom: 2rem;
     }
+}
+
+/* Team Member Styles */
+.team-member {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    transform-origin: center; /* Added */
+    backface-visibility: hidden; /* Added */
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.team-member img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.team-member h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.team-member .text-muted {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #51A66F !important;
+}
+
+.team-member p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.team-member .social-links {
+    margin-top: 1.5rem;
+}
+
+.team-member .social-links a {
+    color: #51A66F;
+    margin: 0 8px;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.team-member .social-links a:hover {
+    color: #428c5c;
+    transform: translateY(-3px);
+}
+
+/* Testimonial Styles */
+.testimonial-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    transform-origin: center; /* Added */
+    backface-visibility: hidden; /* Added */
+}
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #51A66F, #428c5c);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.testimonial-content {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.testimonial-content i {
+    color: #51A66F;
+    opacity: 0.2;
+    font-size: 3rem;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.testimonial-content p {
+    font-style: italic;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    position: relative;
+    z-index: 1;
+    padding-left: 1rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.testimonial-author img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.testimonial-author h5 {
+    margin-bottom: 0.3rem;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.testimonial-author p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Section Titles with enhanced styling */
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.section-title h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2::before { /* Added */
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px; /* Modified width */
+    height: 3px;
+    background: #51A66F;
+}
+
+.section-title h2::after { /* Removed */
+
+}
+
+.section-title p {
+    color: #666;
+    max-width: 700px;
+    margin: 1rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .team-member {
+        padding: 1.5rem;
+        margin-bottom: 2rem; /* Added */
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .testimonial-card {
+        padding: 1.5rem;
+        margin-bottom: 2rem; /* Added */
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .section-title {
+        margin-bottom: 2rem; /* Added */
+    }
+}
+
+/* Add alternating section backgrounds */
+section {
+    position: relative; /* Added */
+    overflow: hidden; /* Added */
+}
+
+section:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+section:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+section::after { /* Added */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(81, 166, 111, 0.2), transparent);
+}
+
+/* Animation Classes */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
