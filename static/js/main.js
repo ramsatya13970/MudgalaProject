@@ -37,6 +37,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 event.preventDefault();
                 // Here you would typically send the form data to a server
                 // For static site, we'll just show a success message
+                
+                // Collect form data
+            // let userName = document.getElementById("name").value;
+            // let userEmail = document.getElementById("email").value;
+            // let userMessage = document.getElementById("message").value;
+            let userName = "ram";
+            let userEmail = "ram@gmail.com";
+            let userMessage = "testing message";
+
+            // Encode for URL
+            const mailtoLink = `mailto:ramsatya13970@gmail.com?subject=New Contact Form Submission from ${encodeURIComponent(userName)}&body=${encodeURIComponent("Name: " + userName + "\nEmail: " + userEmail + "\n\nMessage:\n" + userMessage)}`;
+
+            // Open default mail client
+            window.location.href = mailtoLink;
+
                 alert('Form submitted successfully! We will contact you soon.');
                 form.reset();
             }
