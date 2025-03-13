@@ -45,12 +45,31 @@ document.addEventListener('DOMContentLoaded', function() {
             let userName = "ram";
             let userEmail = "ram@gmail.com";
             let userMessage = "testing message";
+            console.log("Hare Krishna1..................");
+
+            (function() {
+                emailjs.init("LusbmnaLnKyiliEb5");  // Replace with your EmailJS Public Key
+            })();
+            console.log("Hare Krishna2..................");
+
+
+            emailjs.send("service_igd3iqk", "template_2dehbxd", {
+                to_email: "ramnarayan.sahu@truminds.com",
+                from_name: userName,
+                from_email: userEmail,
+                message: userMessage,
+            }).then(function(response) {
+                alert("Email sent successfully!");
+                document.getElementById("emailForm").reset();
+            }, function(error) {
+                alert("Error sending email: " + JSON.stringify(error));
+            });
 
             // Encode for URL
-            const mailtoLink = `mailto:ramsatya13970@gmail.com?subject=New Contact Form Submission from ${encodeURIComponent(userName)}&body=${encodeURIComponent("Name: " + userName + "\nEmail: " + userEmail + "\n\nMessage:\n" + userMessage)}`;
+            // const mailtoLink = `mailto:ramsatya13970@gmail.com?subject=New Contact Form Submission from ${encodeURIComponent(userName)}&body=${encodeURIComponent("Name: " + userName + "\nEmail: " + userEmail + "\n\nMessage:\n" + userMessage)}`;
 
-            // Open default mail client
-            window.location.href = mailtoLink;
+            // // Open default mail client
+            // window.location.href = mailtoLink;
 
                 alert('Form submitted successfully! We will contact you soon.');
                 form.reset();
