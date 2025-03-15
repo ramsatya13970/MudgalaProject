@@ -121,7 +121,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="content-box">
-                        <form class="needs-validation" novalidate>
+                        <!-- <form class="needs-validation" novalidate>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="studentName">Student's Name</label>
@@ -163,7 +163,61 @@
                                 <textarea class="form-control" id="message" rows="4"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </form> -->
+
+                        <!-- ..................................... -->
+                        <form action="https://formsubmit.co/ramsatya13970@gmail.com" method="POST" class="needs-validation" novalidate>
+                            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                            <input type="hidden" name="_captcha" value="false">
+                        
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="studentName">Student's Name</label>
+                                    <input type="text" class="form-control" id="studentName" name="Student Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="dob">Date of Birth</label>
+                                    <input type="date" class="form-control" id="dob" name="Date of Birth" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="parentName">Parent's Name</label>
+                                    <input type="text" class="form-control" id="parentName" name="Parent Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone">Contact Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="Contact Number" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="grade">Grade Applying For</label>
+                                <select class="form-control" id="grade" name="Grade Applying For" required>
+                                    <option value="">Select Grade</option>
+                                    <option>Pre-Primary</option>
+                                    <option>Grade 1</option>
+                                    <option>Grade 2</option>
+                                    <option>Grade 3</option>
+                                    <option>Grade 4</option>
+                                    <option>Grade 5</option>
+                                    <option>Grade 6</option>
+                                    <option>Grade 7</option>
+                                    <option>Grade 8</option>
+                                    <option>Grade 9</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message">Additional Information</label>
+                                <textarea class="form-control" id="message" name="Additional Information" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
                         </form>
+                        <!-- ..................................... -->
+                        
                     </div>
                 </div>
             </div>
