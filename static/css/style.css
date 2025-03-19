@@ -149,6 +149,35 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
 }
 
+/* customizing....................... */
+
+.team-member {
+    padding: 0.5rem 1rem;
+}
+
+.team-member h4 {
+    margin-bottom: 0rem;
+    font-size: 1rem;
+}
+
+.team-member .text-muted {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    
+}
+
+.team-member p {
+    font-size: 0.7rem;
+    line-height: 1.6;
+    margin-bottom: 0.2rem;
+}
+
+.team-member .social-links {
+
+    margin-top: 0.4rem;
+}
+/* ............done.......................... */
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .section-title h2 {
