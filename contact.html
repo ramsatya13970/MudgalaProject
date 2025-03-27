@@ -119,7 +119,7 @@
                             
                             <!-- Hidden input to redirect user after submission (optional) -->
                             <!-- <input type="hidden" name="_next" value="https://ramsatya13970.github.io/MudgalaProject/thank-you.html"> -->
-                            <input type="hidden" name="_next" value="http://mudgala.org/thank-you.html">
+                            <input type="hidden" name="_next" id="redirect-contact-url" >
                            
                             
                             <!-- Hidden input to disable CAPTCHA (remove if you want CAPTCHA) -->
@@ -127,6 +127,9 @@
                             
                             <button type="submit" class="btn btn-primary">Send Message</button>
                         </form>
+                        <script>
+                            document.getElementById('redirect-contact-url').value = window.location.origin + "/thank-you.html";
+                        </script>
                     </div>
                 </div>
 
