@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admission - MUDGALA RISHIKULAM</title>
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -172,7 +173,8 @@
 
                             <!-- Hidden input to redirect user after submission (optional) -->
                             <!-- <input type="hidden" name="_next" value="https://ramsatya13970.github.io/MudgalaProject/thank-you.html"> -->
-                            <input type="hidden" name="_next" value="http://mudgala.org/thank-you.html">
+                            <!-- <input type="hidden" name="_next" value="http://mudgala.org/thank-you.html"> -->
+                            <input type="hidden" name="_next" id="redirect-admission-url">
 
                             <input type="hidden" name="_captcha" value="false">
                         
@@ -222,6 +224,9 @@
                             </div>
                             <button type="submit" class="btn btn-primary">Submit Application</button>
                         </form>
+                        <script>
+                            document.getElementById('redirect-admission-url').value = window.location.origin + "/MudgalaProject/thank-you.html";
+                        </script>
                         <!-- ..................................... -->
                         
                     </div>
