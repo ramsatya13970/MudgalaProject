@@ -519,3 +519,115 @@ section::after { /* Added */
     margin-top: 0.4rem;
 }
 /* ............done.......................... */
+
+
+/* Gallery Section Styles */
+.gallery-filter {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery-filter button {
+    margin: 0 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+}
+
+.gallery-filter button.active {
+    background-color: #51A66F;
+    color: white;
+    border-color: #51A66F;
+}
+
+.gallery-item {
+    padding: 0.8rem;
+    transition: all 0.4s ease;
+    transform-origin: center;
+    backface-visibility: hidden;
+}
+
+.gallery-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.gallery-box img {
+    transition: all 0.5s ease;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gallery-box:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-box-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 15px;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.gallery-box:hover .gallery-box-caption {
+    transform: translateY(0);
+}
+
+.gallery-box .project-category {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.gallery-box .project-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Video Section Styles */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.embed-responsive iframe {
+    border-radius: 8px;
+}
+
+/* Mobile Responsive Gallery */
+@media (max-width: 768px) {
+    .gallery-filter button {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+        margin: 0 3px 10px;
+    }
+    
+    .gallery-item {
+        padding: 0.5rem;
+    }
+    
+    .gallery-box .project-name {
+        font-size: 1rem;
+    }
+    
+    .gallery-box-caption {
+        padding: 10px;
+    }
+}
