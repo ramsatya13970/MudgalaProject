@@ -124,8 +124,7 @@
             <div class="section-title">
                 <h2>Gallery</h2>
             </div>
-            <div class="row">
-                <!--it was col-md-4 col-6   earlier  -->
+            <div class="row gallery-row">
                 <div class="col-12 col-md-4">
                     <div class="gallery-item">
                         <img src="static/images/activitiesCarousel.jpg" alt="Dance Performance" class="img-fluid">
@@ -213,5 +212,58 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="static/js/main.js"></script>
+
+    <script>
+        const activityImagesArray = [
+            "static/images/activitiesGallery/activity1.jpg",
+            "static/images/activitiesGallery/activity2.jpg",
+            "static/images/activitiesGallery/activity3.jpg",
+            "static/images/activitiesGallery/activity4.jpg",
+            "static/images/activitiesGallery/activity5.jpg",
+            "static/images/activitiesGallery/activity6.jpg",
+            "static/images/activitiesGallery/activity7.jpg",
+            "static/images/activitiesGallery/activity8.jpg",
+            "static/images/activitiesGallery/activity9.jpg",
+            "static/images/activitiesGallery/activity10.jpg",
+            "static/images/activitiesGallery/activity11.jpg",
+            "static/images/activitiesGallery/activity12.jpg",
+            "static/images/activitiesGallery/activity13.jpg",
+            "static/images/activitiesGallery/activity14.jpg",
+            "static/images/activitiesGallery/activity15.jpg",
+            "static/images/activitiesGallery/activity16.jpg",
+            "static/images/activitiesGallery/activity17.jpg",
+            "static/images/activitiesGallery/activity18.jpg",
+            "static/images/activitiesGallery/activity19.jpg",
+            "static/images/activitiesGallery/activity20.jpg",
+            "static/images/activitiesGallery/activity21.jpg",
+            "static/images/activitiesGallery/activity22.jpg",
+            "static/images/activitiesGallery/activity23.jpg",
+            "static/images/activitiesGallery/activity24.jpg",
+            "static/images/activitiesGallery/activity25.jpg",
+            "static/images/activitiesGallery/activity26.jpg",
+            "static/images/activitiesGallery/activity27.jpg",
+            "static/images/activitiesGallery/activity28.jpg",
+            "static/images/activitiesGallery/activity29.jpg"
+        ];
+
+        const galleryRow = document.querySelector('.gallery-row');
+
+        activityImagesArray.forEach(image => {
+            const colDiv = document.createElement('div');
+            colDiv.className = 'col-12 col-md-4';
+            
+            const galleryItemDiv = document.createElement('div');
+            galleryItemDiv.className = 'gallery-item';
+            
+            const imgElement = document.createElement('img');
+            imgElement.src = image;
+            imgElement.alt = 'Activity Image';
+            imgElement.className = 'img-fluid';
+            
+            galleryItemDiv.appendChild(imgElement);
+            colDiv.appendChild(galleryItemDiv);
+            galleryRow.appendChild(colDiv);
+        });
+    </script>
 </body>
 </html>
