@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUDGALA RISHIKULAM</title>
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon" />
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="static/images/logo.png" alt="School Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curriculum.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Cultural Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CBSEDocs.html">CBSE Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- <img src="https://source.unsplash.com/1920x800/?school,education" class="d-block w-100" alt="School Campus"> -->
+                <img src="static/images/studentsCarousel.png" class="d-block w-100 h-100"style="height: 100vh; object-fit: cover;" alt="School Campus">
+                <div class="carousel-caption">
+                    <h1>Welcome to Mudgala Rishikulam</h1>
+                    <p>Nurturing young minds with values and excellence</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static/images/activitiesCarousel.png" class="d-block w-100" style="height: 100vh; object-fit: cover;"alt="Students">
+                <div class="carousel-caption">
+                    <h1>Holistic Education</h1>
+                    <p>Blending traditional wisdom with modern education</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static/images/leaderCarousel.png" class="d-block w-100" style="height: 100vh; object-fit: cover;" alt="Activities">
+                <div class="carousel-caption">
+                    <h1>Excellence in Learning</h1>
+                    <p>Creating tomorrow's leaders today</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SAGE Model Section -->
+<section id="sage-model" class="py-5">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2>We follow SAGE model</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="sage-circles">
+                    <div class="sage-circle orange">
+                        <span>S</span>
+                        <h4>Sastric</h4>
+                    </div>
+                    <div class="sage-circle green">
+                        <span>A</span>
+                        <h4>Academic</h4>
+                    </div>
+                    <div class="sage-circle blue">
+                        <span>G</span>
+                        <h4>Governing</h4>
+                    </div>
+                    <div class="sage-circle yellow">
+                        <span>E</span>
+                        <h4>Experiential</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="sage-description">
+                    <p><strong>SAGE</strong> stands for Shastric, Academic, Governing and Experiential learner.</p>
+                    <div class="sage-point">
+                        <h4>Shastric</h4>
+                        <p>We teach time tested principles from our Shastras like Vedas, Bhagavad-Gita, Ramayana, Mahabharata, Bhagavatam and other Puranas.</p>
+                    </div>
+                    <div class="sage-point">
+                        <h4>Academic</h4>
+                        <p>We teach and create world class environment for academic excellence, following CBSE board and deriving principles from IB education.</p>
+                    </div>
+                    <div class="sage-point">
+                        <h4>Governing</h4>
+                        <p>We create tomorrow's leaders who have the power to govern our country or any organization with positive influence.</p>
+                    </div>
+                    <div class="sage-point">
+                        <h4>Experiential</h4>
+                        <p>We engage students in direct experience and focused reflection to increase knowledge, develop skills and clarify values.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us?</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+                        <h3>Academic Excellence</h3>
+                        <p>Comprehensive curriculum focusing on holistic development and academic achievement.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-users fa-3x mb-3"></i>
+                        <h3>Experienced Faculty</h3>
+                        <p>Dedicated teachers committed to nurturing young minds and fostering growth.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-book-reader fa-3x mb-3"></i>
+                        <h3>Modern Facilities</h3>
+                        <p>State-of-the-art infrastructure supporting comprehensive learning experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Team</h2>
+                <p>Meet our dedicated staff members who make learning exceptional</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/madhava.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Madhava Sarma</h4>
+                        <p class="text-muted">Director</p>
+                        <!-- <p>Ph.D. in Education with 20+ years of experience in academic leadership.</p> -->
+                        <p>B.Tech (BITS Pilani)
+                            MA(PhD) Sanskrit
+                            25 years of Industry & Teaching experience</p>
+
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/sudhamagopal.PNG" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr.Sudhama Gopal</h4>
+                        <p class="text-muted">Director</p>
+                        <!-- <p>Masters in Sanskrit Literature, specializing in traditional education methods.</p> -->
+                        <p>M.Sc Mathematics
+                            MS Comp (Germany)
+                            20 years of International teaching experience</p>
+
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/Rakesh.PNG" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Rakesh</h4>
+                        <p class="text-muted">Head of Sciences</p>
+                        <!-- <p>M.Sc. in Physics, passionate about making science accessible to young minds.</p> -->
+                        <p>B.Tech, B.Ed
+                            10 years of experience</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/tulasimtg.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Tulasi Madhava</h4>
+                        <p class="text-muted">Cultural Head</p>
+                        <p>M.Tech
+                            MA, Mphil Sanskrit
+                            15 years of teaching experience</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ................................. -->
+
+
+
+                
+                <!-- ................................... -->
+            </div>
+            <div class="row"> 
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/laxman.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Laxman</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>M.Sc, M.Ed., LLB<br>15 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/rahulmaity.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Dr. Rahul Maity</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>Sanskrit Scholar, Ph.D.<br>6 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/maheshchodapalli.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Mahesh Chodapalli</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>B.Sc, CIDTL, B.Ed<br>17 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/panduranganbhoga.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Pandurangam Bhoga</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>MA Telugu<br>18 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/hiteshtiwari.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Hitesh Tiwari</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>B.Tech<br>10 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+          
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/mahender.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Mahender</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>M.Com., L.L.B<br>10+ years of experience in English Language and Communication Skills</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/laxmanvardhan.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Laxman Vardhan</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>B.Tech, B.Ed<br>4 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/pushpendra.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Pushpendra</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>B.Tech, B.Ed<br>10 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/sinduri.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Sinduri</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>M.Pharma<br>3 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/nanadakishori.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Nanadakishori</h4>
+                        <p class="text-muted">Telugu Teacher</p>
+                        <p>Telugu Teacher</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/suneetha.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Suneetha</h4>
+                        <p class="text-muted">Music Expert</p>
+                        <p>MBA<br>10 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/vani.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Vani</h4>
+                        <p class="text-muted">Sanskrit and School Nurse</p>
+                        <p>Sanskrit and School Nurse<br>5 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/deepika.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Deepika</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>M.Sc Chemistry, B.Ed<br>10 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/harika.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Harika</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>M.Sc CS<br>3 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/kalyani.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. T Kalyani</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>MA English, B.Ed<br>10 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/krishnagopalvrajesh.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mr. Krishna Gopal Vrajesh</h4>
+                        <p class="text-muted">Music Expert</p>
+                        <p>Music Expert<br>5 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/bhoomandiaparijatha.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Bhoomandia Parijatha</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>MA Telugu, B.Ed<br>8 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-3 mb-4 reveal">
+                    <div class="team-member text-center">
+                        <img src="static/images/team/sahanitha.png" class="rounded-circle mb-3" alt="Team Member">
+                        <h4>Mrs. Sahanitha</h4>
+                        <p class="text-muted">Teaching Staff</p>
+                        <p>B.Sc MPCS<br>2 years of experience</p>
+                        <div class="social-links">
+                            <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Parents Say</h2>
+                <p>Testimonials from our school community</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p>"The holistic approach to education at Mudgala Rishikulam has transformed my child's learning experience. The blend of traditional values and modern education is exceptional."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/100x100/?woman,indian" class="rounded-circle" alt="Parent">
+                            <div>
+                                <h5>Radha Krishnan</h5>
+                                <p class="text-muted">Parent of Grade 5 Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p>"The dedication of teachers and their personal attention to each student's growth is remarkable. My children have flourished both academically and personally."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/100x100/?man,indian" class="rounded-circle" alt="Parent">
+                            <div>
+                                <h5>Raj Sharma</h5>
+                                <p class="text-muted">Parent of Grade 3 & 7 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p>"The cultural activities and value-based education have helped my daughter develop confidence and strong character. Truly grateful for this school."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/100x100/?woman,professional" class="rounded-circle" alt="Parent">
+                            <div>
+                                <h5>Lakshmi Prasad</h5>
+                                <p class="text-muted">Parent of Grade 4 Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Nanda Gokulam Vedic Village,<br>
+                        Kummarigudem, Near Masaipet Village,<br>
+                        Yadadri District, Telangana-508115
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i> +91-9704589387<br>
+                        <i class="fas fa-envelope"></i> mrishikulam@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="curriculum.html">Curriculum</a></li>
+                        <li><a href="activities.html">Cultural Activities</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center mb-0">
+                            &copy; 2024 Mudgala Rishikulam. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
