@@ -165,7 +165,7 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="section-title text-center mb-4">B. DOCUMENTS AND INFORMATION</h2>
+                    <h2 id="documents-info" class="section-title text-center mb-4">B. DOCUMENTS AND INFORMATION</h2>
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <tbody>
@@ -175,7 +175,7 @@
                                 </tr> -->
                                 <tr>
                                     <th>COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE</th>
-                                    <td><a href="static/documents/TrustCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/TrustCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <!-- <tr>
                                     <th>COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT</th>
@@ -183,31 +183,43 @@
                                 </tr> -->
                                 <tr>
                                     <th>COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND IT'S RENEWAL IF APPLICABLE</th>
-                                    <td><a href="static/documents/RecognitionCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/RecognitionCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE</th>
-                                    <td><a href="static/documents/BuildingCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/BuildingCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT AUTHORITY</th>
-                                    <td><a href="static/documents/FireCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/FireCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>COPY OF THE DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION OR SELF CERTIFICATION BY SCHOOL</th>
-                                    <td><a href="static/documents/DEOCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/DEOCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES</th>
-                                    <td><a href="static/documents/WaterHealthCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/WaterHealthCertificate.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>Self Certification</th>
-                                    <td><a href="static/documents/SelfCertification.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/SelfCertification.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                </tr>
+                                <tr>
+                                    <th>UNDERTAKING_MR</th>
+                                    <td><a href="../static/documents/UNDERTAKING_MR.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                </tr>
+                                <tr>
+                                    <th>SMC_MR</th>
+                                    <td><a href="../static/documents/SMC_MR.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                </tr>
+                                <tr>
+                                    <th>PTA_MR</th>
+                                    <td><a href="../static/documents/PTA_MR.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
                                 <tr>
                                     <th>ACADEMIC CALENDAR</th>
-                                    <td><a href="static/documents/AcademicCalendar.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
+                                    <td><a href="../static/documents/AcademicCalendar.pdf" target="_blank" class="btn btn-primary btn-sm">View Details</a></td>
                                 </tr>
 
                             </tbody>
@@ -286,5 +298,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../static/js/main.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            var element = document.getElementById('documents-info');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
 </body>
 </html>
